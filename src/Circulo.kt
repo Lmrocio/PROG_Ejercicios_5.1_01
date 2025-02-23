@@ -24,6 +24,6 @@ class Circulo(color: String, val radio: Double) : Figura (color) {
      * @return String
      */
     override fun toString(): String {
-        return "El círculo de color $color y radio $radio tiene un área de ${".2%".format(area())} y perímetro de ${".2%".format(perimetro())}"
+        return "El círculo de color $color y radio $radio tiene un área de ${"%.2f".format(area())} y perímetro de ${"%.2f".format(perimetro())}"
     }
 }

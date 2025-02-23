@@ -70,6 +70,6 @@ class Triangulo: Figura {
      */
     override fun toString(): String {
         return "El tríangulo de color $color, base $base, altura $altura, lados $lado1, $lado2, $lado3 " +
-                "tiene un área de ${".2%".format(area())} y perímetro de ${".2%".format(perimetro())}"
+                "tiene un área de ${"%.2f".format(area())} y perímetro de ${"%.2f".format(perimetro())}"
     }
 }

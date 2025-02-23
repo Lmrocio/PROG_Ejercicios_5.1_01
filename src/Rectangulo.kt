@@ -24,7 +24,7 @@ class Rectangulo(color: String, val altura: Double, val base: Double) : Figura (
      * @return String
      */
     override fun toString(): String {
-        return "El rectángulo de color $color, base $base y altura $altura tiene un área de ${".2%".format(area())} " +
-                "y perímetro de ${".2%".format(perimetro())}"
+        return "El rectángulo de color $color, base $base y altura $altura tiene un área de ${"%.2f".format(area())} " +
+                "y perímetro de ${"%.2f".format(perimetro())}"
     }
 }
